@@ -344,6 +344,7 @@ template. It helps us quickly reproduce the bug and resolve it.
 
 - Are you using TailwindCSS JIT? Don't forget to update your purge list! [(see)](#usage-with-tailwind-jit)
 - You may need to rebuild your CSS by running: `npm run dev` or re-running `npm run watch` [(see)](#tailwindcss)
+- If the toasts are showing on the left side of the screen and you're a RTL user, be sure to [set the direction.](https://github.com/marchershey/tall-toasts/tree/add-confirm-toasts#rtl-support)
 
 ## Other Packages
 
